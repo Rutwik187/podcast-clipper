@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "next build",
+    "ingest-dev": "npx inngest-cli@latest dev",
+    "ingest-deploy": "npx inngest-cli@latest deploy",
     "check": "next lint && tsc --noEmit",
     "db:generate": "prisma migrate dev",
     "db:migrate": "prisma migrate deploy",
