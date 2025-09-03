@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 # run
 
-$ python main.py
+modal run main.py
 
 # Project highlights
 

@@ -92,6 +92,7 @@ export const processVideo = inngest.createFunction(
             return { clipsFound: clipKeys.length };
           },
         );
+
         await step.run("deduct-credits", async () => {
           await db.user.update({
             where: {
